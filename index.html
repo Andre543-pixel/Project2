@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="crypto-card">
+      <h2>Crypto Converter</h2>
+
+      <input type="text" class="" id="usd-amount" placeholder="Сума в USD" />
+
+      <select id="crypto-select">
+        <option value="0" data-id="bitcoin">Bitcoin (BTC)</option>
+        <option value="0" data-id="ethereum">Ethereum (ETH)</option>
+        <option value="0" data-id="solana">Solana (SOL)</option>
+        <option value="0" data-id="dogecoin">Dogecoin (DOGE)</option>
+      </select>
+
+      <div class="crypto-logo-container">
+        <img
+          id="crypto-logo"
+          src=""
+          alt="логотип"
+          style="display: none; width: 50px; height: 50px; margin: 15px auto"
+        />
+      </div>
+
+      <button id="calc-btn">Розрахувати</button>
+
+      <div id="result-display">Ви отримаєте: 0</div>
+    </div>
+  </body>
+  <body>
+    <script src="script.js"></script>
+  </body>
+</html>
